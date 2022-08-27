@@ -1,0 +1,160 @@
+:root {
+  --purple-light: #8257e5;
+  --purple-dark: #6f33ea;
+  --green: #04d361;
+  --dark: #000000;
+  --white: #ffffff;
+  --gray: #6a6a6a;
+
+  --spartan: 'League Spartan', sans-serif;
+  --work-sans: 'Work Sans', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: var(--dark);
+  color: var(--white);
+
+  font-family: var(--spartan);
+}
+
+button,
+a {
+  border: none;
+  text-decoration: none;
+}
+
+button:hover,
+a:hover {
+  filter: brightness(1.2);
+  cursor: pointer;
+}
+
+.divider {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  padding: 2rem;
+}
+
+.logo {
+  max-width: 18rem;
+  padding-bottom: 2rem;
+}
+
+h1 {
+  font-family: var(--work-sans);
+  font-size: 1.6rem;
+
+  color: var(--green);
+  padding-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+  padding-bottom: 1rem;
+}
+
+p {
+  font-size: 1.1rem;
+  text-align: justify;
+}
+
+form {
+  padding: 2rem 0;
+}
+
+.email__area {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+
+  margin-bottom: 2rem;
+  filter: drop-shadow(4px 10px 15px rgba(0, 0, 0, 0.5));
+}
+
+label {
+  color: var(--gray);
+}
+
+.email__input {
+  display: flex;
+}
+
+input {
+  padding: 0.8rem;
+  min-width: 16rem;
+  border: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+input::placeholder {
+  color: var(--gray);
+}
+
+.send__button {
+  display: flex;
+  align-items: center;
+
+  background-color: var(--purple-light);
+  padding: 0.2rem 0.6rem;
+}
+
+.links__area {
+  display: flex;
+  align-items: center;
+  gap: 6rem;
+}
+
+.links__area a {
+  color: var(--purple-dark);
+}
+
+.links__area button {
+  background: none;
+}
+
+.image__area {
+  background: url('../img/read_news.svg');
+  background-size: cover;
+  background-repeat: no-repeat no-repeat;
+  height: 10rem;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+@media (min-width: 800px) {
+  .email__input {
+    margin-top: 2rem;
+    position: absolute;
+  }
+
+  input {
+    min-width: 30rem;
+  }
+
+  .divider {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .links__area {
+    margin-top: 6rem;
+  }
+
+  .image__area {
+    height: 100vh;
+    position: unset;
+  }
+}
