@@ -1,0 +1,10 @@
+{
+  "title": "Isa's newsletter",
+  "description": "A newsletter page integrated with a simple node back-end for saving emails in a database",
+  "techs": ["HTML", "CSS", "JavaScript", "Node.js", "Knex"],
+  "language": ["English"],
+  "status": "Done",
+  "licence": "MIT",
+  "github": "https://github.com/isadfrn/isa-newsletter",
+  "url": ""
+}
