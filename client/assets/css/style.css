@@ -92,6 +92,7 @@ input {
   padding: 0.8rem;
   min-width: 16rem;
   border: none;
+  border-left: 0.4rem solid #04d361;
 }
 
 input:focus {
