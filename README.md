@@ -8,7 +8,7 @@
 
 ## About
 
-A newsletter page integrated with a simple node back-end for saving emails in a database.
+A newsletter page integrated with a simple node Back-end for saving emails in a database.
 
 ## Run
 
