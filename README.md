@@ -16,7 +16,7 @@ For back-end run `npm install` then `npm run dev`. For front-end install [Live S
 
 ## Status
 
-Done ✅
+Finished 🛑
 
 ## License
 
