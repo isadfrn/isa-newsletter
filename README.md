@@ -4,7 +4,7 @@
 ![Repository size](https://img.shields.io/github/repo-size/isadfrn/isa-newsletter?style=flat-square)
 ![Last commit](https://img.shields.io/github/last-commit/isadfrn/isa-newsletter?style=flat-square)
 
-![Some HTML pages](./client/assets/img/demo.gif)
+![Some HTML pages](./docs/assets/img/demo.gif)
 
 ## About
 
